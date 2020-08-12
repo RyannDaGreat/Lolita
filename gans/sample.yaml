@@ -1,0 +1,14 @@
+# Config file for CelebA dataset (200k)
+
+output_dir: './outputs'
+# output_dir: '/data/hzh/checkpoints/StyleGAN.pytorch/ckp_celeba_6'
+# structure: 'linear'
+# device_id: ('0')
+device_id: ('0')
+dataset:
+  img_dir: '../processed_data/photos_256x256'
+  folder: False
+  resolution: 256
+sched:
+  epochs: [1,1,1,1,1,1,1,1,1]
+  # epochs: [2,4,4,4,4,8]
