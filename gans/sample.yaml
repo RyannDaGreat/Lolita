@@ -10,5 +10,5 @@ dataset:
   folder: False
   resolution: 256
 sched:
-  epochs: [1,1,1,1,1,1,1,1,1]
+  epochs: [2,4,4,4,4,4,4,4,4]
   # epochs: [2,4,4,4,4,8]
